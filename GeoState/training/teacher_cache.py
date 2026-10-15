@@ -4,9 +4,9 @@ from pathlib import Path
 
 import torch
 
-from vggt_scene_tokenizer.data.common import NerfScene, overlap_clip_frame_indices, preprocess_frame, uniform_frame_indices
-from vggt_scene_tokenizer.core.geometry import estimate_camera_sim3, invert_rigid, robust_scene_scale, transform_points
-from vggt_scene_tokenizer.models.vggt_adapter import VGGTOmegaAdapter
+from GeoState.data.common import NerfScene, overlap_clip_frame_indices, preprocess_frame, uniform_frame_indices
+from GeoState.core.geometry import estimate_camera_sim3, invert_rigid, robust_scene_scale, transform_points
+from GeoState.models.vggt_adapter import VGGTOmegaAdapter
 
 
 class TeacherCacheBuilder:

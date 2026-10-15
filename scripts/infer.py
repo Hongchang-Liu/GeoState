@@ -15,12 +15,12 @@ from PIL import Image
 import torch
 import torch.nn.functional as F
 
-sys.path.insert(0, str(Path(__file__).resolve().parents[1] / "src"))
+sys.path.insert(0, str(Path(__file__).resolve().parents[1]))
 
-from vggt_scene_tokenizer.data.common import FrameRecord, preprocess_frame
-from vggt_scene_tokenizer.evaluation.checkpoint import load_geostate_checkpoint
-from vggt_scene_tokenizer.models.camera_conditioning import load_vggt_spatial_camera_checkpoint
-from vggt_scene_tokenizer.models.world_model import (
+from GeoState.data.common import FrameRecord, preprocess_frame
+from GeoState.evaluation.checkpoint import load_geostate_checkpoint
+from GeoState.models.camera_conditioning import load_vggt_spatial_camera_checkpoint
+from GeoState.models.world_model import (
     SceneStatePredictorConfig,
     build_next_scene_state_predictor,
 )

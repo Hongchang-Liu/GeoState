@@ -19,7 +19,7 @@ import numpy as np
 import torch
 from PIL import Image
 
-from vggt_scene_tokenizer.data.common import _target_shape
+from GeoState.data.common import _target_shape
 
 
 CAMERA_NAMES = (1, 2, 3)  # FRONT, FRONT_LEFT, FRONT_RIGHT.

@@ -32,11 +32,11 @@ from torch.nn.parallel import DistributedDataParallel
 from torch.utils.data import DataLoader, Dataset
 from torch.utils.data.distributed import DistributedSampler
 
-from vggt_scene_tokenizer.evaluation.checkpoint import load_geostate_checkpoint as _load_model
-from vggt_scene_tokenizer.core.geometry import paired_depth_scale
-from vggt_scene_tokenizer.models.world_model import SceneStatePredictorConfig, build_next_scene_state_predictor
-from vggt_scene_tokenizer.data.waymo import CAMERA_NAMES
-from vggt_scene_tokenizer.training.waymo_one_step import (
+from GeoState.evaluation.checkpoint import load_geostate_checkpoint as _load_model
+from GeoState.core.geometry import paired_depth_scale
+from GeoState.models.world_model import SceneStatePredictorConfig, build_next_scene_state_predictor
+from GeoState.data.waymo import CAMERA_NAMES
+from GeoState.training.waymo_one_step import (
     _decode_meters,
     _region_log_loss,
 )

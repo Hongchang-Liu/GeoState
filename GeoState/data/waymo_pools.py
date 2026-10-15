@@ -11,7 +11,7 @@ from typing import Any, Iterable
 
 import numpy as np
 
-from vggt_scene_tokenizer.data.waymo import CAMERA_NAMES, CV_TO_WAYMO_CAMERA, _camera_calibrations, _pyarrow_parquet
+from GeoState.data.waymo import CAMERA_NAMES, CV_TO_WAYMO_CAMERA, _camera_calibrations, _pyarrow_parquet
 
 
 BOX_PREFIX = "[LiDARBoxComponent]."

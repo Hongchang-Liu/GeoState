@@ -22,7 +22,7 @@ from typing import Any
 import cv2
 import numpy as np
 
-from vggt_scene_tokenizer.data.waymo import (
+from GeoState.data.waymo import (
     CAMERA_NAMES,
     CV_TO_WAYMO_CAMERA,
     _camera_calibrations,
@@ -30,7 +30,7 @@ from vggt_scene_tokenizer.data.waymo import (
     _pyarrow_parquet,
     _target_geometry,
 )
-from vggt_scene_tokenizer.data.waymo_pools import BOX_PREFIX, _box_corners
+from GeoState.data.waymo_pools import BOX_PREFIX, _box_corners
 
 
 CAMERA_LABELS = {1: "FRONT", 2: "FRONT_LEFT", 3: "FRONT_RIGHT"}

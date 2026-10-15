@@ -6,7 +6,7 @@ from typing import Any
 
 import torch
 
-from vggt_scene_tokenizer.core.types import SceneEncoding, Sim3
+from GeoState.core.types import SceneEncoding, Sim3
 
 
 def scene_encoding_from_contexts(

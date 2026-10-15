@@ -7,9 +7,9 @@ from pathlib import Path
 
 import torch
 
-from vggt_scene_tokenizer.core.config import AlignmentConfig, ExperimentConfig, ModelConfig
-from vggt_scene_tokenizer.models.tokenizer import GeometrySceneModel
-from vggt_scene_tokenizer.models.vggt_adapter import VGGTOmegaAdapter
+from GeoState.core.config import AlignmentConfig, ExperimentConfig, ModelConfig
+from GeoState.models.tokenizer import GeometrySceneModel
+from GeoState.models.vggt_adapter import VGGTOmegaAdapter
 
 
 def load_geostate_checkpoint(

@@ -26,17 +26,17 @@ from torch.nn.parallel import DistributedDataParallel
 from torch.utils.checkpoint import checkpoint as activation_checkpoint
 from torch.utils.data import DataLoader, Sampler
 
-from vggt_scene_tokenizer.core.geometry import paired_depth_scale
-from vggt_scene_tokenizer.evaluation.checkpoint import load_geostate_checkpoint as _load_model
-from vggt_scene_tokenizer.models.world_model import SceneStatePredictorConfig, build_next_scene_state_predictor
-from vggt_scene_tokenizer.training.waymo_online_one_step import (
+from GeoState.core.geometry import paired_depth_scale
+from GeoState.evaluation.checkpoint import load_geostate_checkpoint as _load_model
+from GeoState.models.world_model import SceneStatePredictorConfig, build_next_scene_state_predictor
+from GeoState.training.waymo_online_one_step import (
     _atomic_json_dump,
     _atomic_torch_save,
     _cleanup_distributed,
     _distributed_context,
     _set_seed,
 )
-from vggt_scene_tokenizer.training.waymo_one_step import (
+from GeoState.training.waymo_one_step import (
     ManifestWaymoDataset,
     TARGET_STATE_INDICES,
     _decode_meters,

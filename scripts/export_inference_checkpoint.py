@@ -11,8 +11,8 @@ from pathlib import Path
 
 import torch
 
-sys.path.insert(0, str(Path(__file__).resolve().parents[1] / "src"))
-from vggt_scene_tokenizer.core.config import AlignmentConfig, ModelConfig
+sys.path.insert(0, str(Path(__file__).resolve().parents[1]))
+from GeoState.core.config import AlignmentConfig, ModelConfig
 
 
 def select_payload(kind: str, source: dict, pose_source: dict | None = None) -> dict:

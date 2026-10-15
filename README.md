@@ -18,7 +18,7 @@ Xun Jiang<sup>1</sup>, Fei Ma<sup>4</sup>, Xing Xu<sup>1</sup>, Yi Bin<sup>1,†
 
 
 <p align="center">
-  <img src="./assets/geostate_overview.png" alt="GeoState learning and world modeling pipeline" width="100%">
+  <img src="./assets/geostate_overview.webp" alt="GeoState learning and world modeling pipeline" width="100%">
 </p>
 
 </div>
@@ -374,7 +374,7 @@ geostate-prepare-waymo \
   --waymo-root data/waymo --output-root data/waymo_prepared \
   --split validation
 
-python -m vggt_scene_tokenizer.data.waymo_pools \
+python -m GeoState.data.waymo_pools \
   --waymo-root data/waymo --prepared-root data/waymo_prepared \
   --output-root manifests/waymo_pools
 ```
@@ -418,7 +418,7 @@ accumulation steps, for an effective batch size of 36.
 
 ```bash
 torchrun --standalone --nproc-per-node=4 \
-  -m vggt_scene_tokenizer.training.large_scale train-ddp \
+  -m GeoState.training.large_scale train-ddp \
   --config configs/geostate.yaml \
   --scene-manifest manifests/geostate_pretrain.json \
   --steps 200000 --lr 1e-5 --grad-accumulation 9 \
@@ -432,7 +432,7 @@ torchrun --standalone --nproc-per-node=4 \
 
 ```bash
 torchrun --standalone --nproc-per-node=4 \
-  -m vggt_scene_tokenizer.training.large_scale train-ddp \
+  -m GeoState.training.large_scale train-ddp \
   --config configs/geostate.yaml \
   --waymo-prepared-root data/waymo_prepared/train \
   --waymo-static-temporal-manifest manifests/waymo_pools/train_static_temporal.jsonl \
@@ -472,7 +472,7 @@ The objective is `SmoothL1_0.1 + 0.05 cosine + 0.24 log-depth`.
 
 ```bash
 torchrun --standalone --nproc-per-node=4 \
-  -m vggt_scene_tokenizer.training.waymo_online_one_step \
+  -m GeoState.training.waymo_online_one_step \
   --config configs/geostate.yaml \
   --scene-checkpoint checkpoints/geostate.pt \
   --train-prepared-root data/waymo_prepared/train \
@@ -491,7 +491,7 @@ Train seven-step autoregressive predictions with the depth objective.
 
 ```bash
 torchrun --standalone --nproc-per-node=4 \
-  -m vggt_scene_tokenizer.training.waymo_online_rollout \
+  -m GeoState.training.waymo_online_rollout \
   --config configs/geostate.yaml \
   --scene-checkpoint checkpoints/geostate.pt \
   --resume outputs/world_onestep/best_onestep.pt \

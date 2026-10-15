@@ -6,7 +6,7 @@ from itertools import combinations
 import torch
 import torch.nn.functional as F
 
-from vggt_scene_tokenizer.core.types import AlignmentDiagnostics, Sim3
+from GeoState.core.types import AlignmentDiagnostics, Sim3
 
 
 def homogenize_transform(matrix: torch.Tensor) -> torch.Tensor:

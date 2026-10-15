@@ -29,26 +29,26 @@ from PIL import Image
 
 SCRIPT = Path(__file__).resolve()
 sys.path.insert(0, str(SCRIPT.parent))
-sys.path.insert(0, str(SCRIPT.parent.parent / "src"))
+sys.path.insert(0, str(SCRIPT.parent.parent))
 
-from vggt_scene_tokenizer.data.common import _target_shape  # noqa: E402
-from vggt_scene_tokenizer.data.kitti import (  # noqa: E402
+from GeoState.data.common import _target_shape  # noqa: E402
+from GeoState.data.kitti import (  # noqa: E402
     _oxts_pose,
     _read_calibration,
     _transform,
 )
-from vggt_scene_tokenizer.core.geometry import paired_depth_scale  # noqa: E402
-from vggt_scene_tokenizer.evaluation.checkpoint import load_geostate_checkpoint as _load_model  # noqa: E402
-from vggt_scene_tokenizer.models.world_model import (  # noqa: E402
+from GeoState.core.geometry import paired_depth_scale  # noqa: E402
+from GeoState.evaluation.checkpoint import load_geostate_checkpoint as _load_model  # noqa: E402
+from GeoState.models.world_model import (  # noqa: E402
     SceneStatePredictorConfig,
     build_next_scene_state_predictor,
 )
-from vggt_scene_tokenizer.core.types import VGGTOutput  # noqa: E402
-from vggt_scene_tokenizer.evaluation.inference import decode_metric_depth as _decode_meters  # noqa: E402
-from vggt_scene_tokenizer.models.camera_prediction import (  # noqa: E402
+from GeoState.core.types import VGGTOutput  # noqa: E402
+from GeoState.evaluation.inference import decode_metric_depth as _decode_meters  # noqa: E402
+from GeoState.models.camera_prediction import (  # noqa: E402
     rotation_angle,
 )
-from vggt_scene_tokenizer.models.camera_conditioning import (  # noqa: E402
+from GeoState.models.camera_conditioning import (  # noqa: E402
     load_vggt_spatial_camera_checkpoint,
 )
 

@@ -9,8 +9,8 @@ from pathlib import Path
 import torch
 import torch.nn as nn
 
-from vggt_scene_tokenizer.models.camera_layers import CrossAttentionBlock
-from vggt_scene_tokenizer.models.camera_prediction import (
+from GeoState.models.camera_layers import CrossAttentionBlock
+from GeoState.models.camera_prediction import (
     AnchoredCameraPredictor,
     AnchoredPredictorConfig,
     HorizonCrossAttentionBlock,

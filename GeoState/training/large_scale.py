@@ -18,21 +18,21 @@ import torch.distributed as dist
 import torch.nn as nn
 from torch.nn.parallel import DistributedDataParallel
 
-from vggt_scene_tokenizer.data.batching import (
+from GeoState.data.batching import (
     collate_scene_targets,
     slice_depth_prediction,
 )
-from vggt_scene_tokenizer.core.config import ExperimentConfig
-from vggt_scene_tokenizer.data.common import CachedSceneDataset
-from vggt_scene_tokenizer.core.geometry import paired_depth_scale, robust_scene_scale
-from vggt_scene_tokenizer.evaluation.metrics import depth_metrics
-from vggt_scene_tokenizer.training.losses import geometry_losses_per_scene
-from vggt_scene_tokenizer.models.tokenizer import GeometrySceneModel
-from vggt_scene_tokenizer.training.supervision import build_target_supervision
-from vggt_scene_tokenizer.training.teacher_cache import TeacherCacheBuilder
-from vggt_scene_tokenizer.core.types import VGGTOutput
-from vggt_scene_tokenizer.models.vggt_adapter import VGGTOmegaAdapter
-from vggt_scene_tokenizer.data.waymo import WaymoPreparedDataset
+from GeoState.core.config import ExperimentConfig
+from GeoState.data.common import CachedSceneDataset
+from GeoState.core.geometry import paired_depth_scale, robust_scene_scale
+from GeoState.evaluation.metrics import depth_metrics
+from GeoState.training.losses import geometry_losses_per_scene
+from GeoState.models.tokenizer import GeometrySceneModel
+from GeoState.training.supervision import build_target_supervision
+from GeoState.training.teacher_cache import TeacherCacheBuilder
+from GeoState.core.types import VGGTOutput
+from GeoState.models.vggt_adapter import VGGTOmegaAdapter
+from GeoState.data.waymo import WaymoPreparedDataset
 
 
 def seed_everything(seed: int) -> None:

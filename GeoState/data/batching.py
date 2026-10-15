@@ -2,8 +2,8 @@ from __future__ import annotations
 
 import torch
 
-from vggt_scene_tokenizer.data.common import select_target
-from vggt_scene_tokenizer.core.types import DepthPrediction
+from GeoState.data.common import select_target
+from GeoState.core.types import DepthPrediction
 
 
 def collate_scene_targets(

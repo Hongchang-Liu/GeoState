@@ -13,8 +13,8 @@ import torch
 from PIL import Image
 from torch.utils.data import Dataset
 
-from vggt_scene_tokenizer.core.types import SceneEncoding, Sim3
-from vggt_scene_tokenizer.data.waymo import CAMERA_NAMES
+from GeoState.core.types import SceneEncoding, Sim3
+from GeoState.data.waymo import CAMERA_NAMES
 
 
 TARGET_STATE_INDICES = tuple(range(4, 11))

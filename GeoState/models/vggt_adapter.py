@@ -9,8 +9,8 @@ from pathlib import Path
 import torch
 import torch.nn as nn
 
-from vggt_scene_tokenizer.core.geometry import homogenize_transform, invert_rigid, unproject_z_depth
-from vggt_scene_tokenizer.core.types import VGGTOutput
+from GeoState.core.geometry import homogenize_transform, invert_rigid, unproject_z_depth
+from GeoState.core.types import VGGTOutput
 
 
 def resolve_checkpoint(path: str | Path, source_root: str | Path, min_bytes: int = 1_000_000_000) -> Path:

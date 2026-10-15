@@ -6,8 +6,8 @@ import torch
 import torch.nn as nn
 import torch.nn.functional as F
 
-from vggt_scene_tokenizer.core.config import AlignmentConfig, ModelConfig
-from vggt_scene_tokenizer.core.geometry import (
+from GeoState.core.config import AlignmentConfig, ModelConfig
+from GeoState.core.geometry import (
     apply_sim3_to_c2w,
     estimate_camera_sim3,
     full_plucker_ray_map,
@@ -15,12 +15,12 @@ from vggt_scene_tokenizer.core.geometry import (
     robust_scene_scale,
     transform_points,
 )
-from vggt_scene_tokenizer.models.networks import (
+from GeoState.models.networks import (
     SceneTokenizer,
     VGGTPatchFeatureDecoder,
 )
-from vggt_scene_tokenizer.core.types import AlignmentDiagnostics, DepthPrediction, SceneEncoding, Sim3, VGGTOutput
-from vggt_scene_tokenizer.models.vggt_adapter import VGGTOmegaAdapter
+from GeoState.core.types import AlignmentDiagnostics, DepthPrediction, SceneEncoding, Sim3, VGGTOutput
+from GeoState.models.vggt_adapter import VGGTOmegaAdapter
 
 
 def confidence_pool_dense(

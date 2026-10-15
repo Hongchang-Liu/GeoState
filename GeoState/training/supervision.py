@@ -4,7 +4,7 @@ from dataclasses import dataclass
 
 import torch
 
-from vggt_scene_tokenizer.core.geometry import (
+from GeoState.core.geometry import (
     apply_sim3,
     apply_sim3_to_c2w,
     compose_sim3,
@@ -12,7 +12,7 @@ from vggt_scene_tokenizer.core.geometry import (
     unproject_z_depth,
     zbuffer_render,
 )
-from vggt_scene_tokenizer.core.types import SceneEncoding, Sim3
+from GeoState.core.types import SceneEncoding, Sim3
 
 
 @dataclass

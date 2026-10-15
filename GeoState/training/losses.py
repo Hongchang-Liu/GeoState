@@ -6,7 +6,7 @@ from dataclasses import dataclass
 
 import torch
 
-from vggt_scene_tokenizer.core.types import DepthPrediction
+from GeoState.core.types import DepthPrediction
 
 
 @dataclass

@@ -24,14 +24,18 @@ train = ["tensorboard>=2.16"]
 all = ["pyarrow>=15", "opencv-python-headless>=4.9", "tensorboard>=2.16"]
 
 [project.scripts]
-geostate-train-stage1-ddp = "vggt_scene_tokenizer.training.large_scale:main"
-geostate-prepare-tartanair = "vggt_scene_tokenizer.data.tartanair:main"
-geostate-prepare-pretrain = "vggt_scene_tokenizer.data.pretrain:main"
-geostate-prepare-wildrgbd = "vggt_scene_tokenizer.data.wildrgbd:main"
-geostate-prepare-waymo = "vggt_scene_tokenizer.data.waymo:main"
-geostate-prepare-waymo-masks = "vggt_scene_tokenizer.data.waymo_motion_masks:main"
-geostate-train-world-onestep = "vggt_scene_tokenizer.training.waymo_online_one_step:main"
-geostate-train-world-rollout = "vggt_scene_tokenizer.training.waymo_online_rollout:main"
+geostate-train-stage1-ddp = "GeoState.training.large_scale:main"
+geostate-prepare-tartanair = "GeoState.data.tartanair:main"
+geostate-prepare-pretrain = "GeoState.data.pretrain:main"
+geostate-prepare-wildrgbd = "GeoState.data.wildrgbd:main"
+geostate-prepare-waymo = "GeoState.data.waymo:main"
+geostate-prepare-waymo-masks = "GeoState.data.waymo_motion_masks:main"
+geostate-train-world-onestep = "GeoState.training.waymo_online_one_step:main"
+geostate-train-world-rollout = "GeoState.training.waymo_online_rollout:main"
+
+[tool.setuptools]
+package-dir = {"" = "."}
 
 [tool.setuptools.packages.find]
-where = ["src"]
+where = ["."]
+include = ["GeoState", "GeoState.*"]
