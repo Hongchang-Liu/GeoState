@@ -1,0 +1,2740 @@
+{
+   "anchor" : "fixed tenth 5 Hz logical state (raw-frame offset 18 from the first RGB frame)",
+   "format" : "kitti_complete_tenth_window_v1",
+   "history_seconds" : [
+      -0.6,
+      -0.4,
+      -0.2,
+      0
+   ],
+   "horizon_seconds" : [
+      0.2,
+      0.4,
+      0.6,
+      0.8,
+      1,
+      1.2,
+      1.4,
+      1.6,
+      1.8,
+      2
+   ],
+   "raw_population_count" : 151,
+   "selected_count" : 113,
+   "selection_method" : "retain every sequence with the complete fixed tenth-state RGB and annotated-depth window; no random or metric-based filtering",
+   "sequences" : [
+      {
+         "anchor_frame" : 18,
+         "first_frame" : 0,
+         "history_frames" : [
+            12,
+            14,
+            16,
+            18
+         ],
+         "sequence" : "2011_09_26/2011_09_26_drive_0001_sync",
+         "source_split" : "train",
+         "target_frames" : [
+            20,
+            22,
+            24,
+            26,
+            28,
+            30,
+            32,
+            34,
+            36,
+            38
+         ]
+      },
+      {
+         "anchor_frame" : 18,
+         "first_frame" : 0,
+         "history_frames" : [
+            12,
+            14,
+            16,
+            18
+         ],
+         "sequence" : "2011_09_26/2011_09_26_drive_0002_sync",
+         "source_split" : "val",
+         "target_frames" : [
+            20,
+            22,
+            24,
+            26,
+            28,
+            30,
+            32,
+            34,
+            36,
+            38
+         ]
+      },
+      {
+         "anchor_frame" : 18,
+         "first_frame" : 0,
+         "history_frames" : [
+            12,
+            14,
+            16,
+            18
+         ],
+         "sequence" : "2011_09_26/2011_09_26_drive_0005_sync",
+         "source_split" : "val",
+         "target_frames" : [
+            20,
+            22,
+            24,
+            26,
+            28,
+            30,
+            32,
+            34,
+            36,
+            38
+         ]
+      },
+      {
+         "anchor_frame" : 18,
+         "first_frame" : 0,
+         "history_frames" : [
+            12,
+            14,
+            16,
+            18
+         ],
+         "sequence" : "2011_09_26/2011_09_26_drive_0009_sync",
+         "source_split" : "train",
+         "target_frames" : [
+            20,
+            22,
+            24,
+            26,
+            28,
+            30,
+            32,
+            34,
+            36,
+            38
+         ]
+      },
+      {
+         "anchor_frame" : 18,
+         "first_frame" : 0,
+         "history_frames" : [
+            12,
+            14,
+            16,
+            18
+         ],
+         "sequence" : "2011_09_26/2011_09_26_drive_0011_sync",
+         "source_split" : "train",
+         "target_frames" : [
+            20,
+            22,
+            24,
+            26,
+            28,
+            30,
+            32,
+            34,
+            36,
+            38
+         ]
+      },
+      {
+         "anchor_frame" : 18,
+         "first_frame" : 0,
+         "history_frames" : [
+            12,
+            14,
+            16,
+            18
+         ],
+         "sequence" : "2011_09_26/2011_09_26_drive_0013_sync",
+         "source_split" : "val",
+         "target_frames" : [
+            20,
+            22,
+            24,
+            26,
+            28,
+            30,
+            32,
+            34,
+            36,
+            38
+         ]
+      },
+      {
+         "anchor_frame" : 18,
+         "first_frame" : 0,
+         "history_frames" : [
+            12,
+            14,
+            16,
+            18
+         ],
+         "sequence" : "2011_09_26/2011_09_26_drive_0014_sync",
+         "source_split" : "train",
+         "target_frames" : [
+            20,
+            22,
+            24,
+            26,
+            28,
+            30,
+            32,
+            34,
+            36,
+            38
+         ]
+      },
+      {
+         "anchor_frame" : 18,
+         "first_frame" : 0,
+         "history_frames" : [
+            12,
+            14,
+            16,
+            18
+         ],
+         "sequence" : "2011_09_26/2011_09_26_drive_0015_sync",
+         "source_split" : "train",
+         "target_frames" : [
+            20,
+            22,
+            24,
+            26,
+            28,
+            30,
+            32,
+            34,
+            36,
+            38
+         ]
+      },
+      {
+         "anchor_frame" : 18,
+         "first_frame" : 0,
+         "history_frames" : [
+            12,
+            14,
+            16,
+            18
+         ],
+         "sequence" : "2011_09_26/2011_09_26_drive_0017_sync",
+         "source_split" : "train",
+         "target_frames" : [
+            20,
+            22,
+            24,
+            26,
+            28,
+            30,
+            32,
+            34,
+            36,
+            38
+         ]
+      },
+      {
+         "anchor_frame" : 18,
+         "first_frame" : 0,
+         "history_frames" : [
+            12,
+            14,
+            16,
+            18
+         ],
+         "sequence" : "2011_09_26/2011_09_26_drive_0018_sync",
+         "source_split" : "train",
+         "target_frames" : [
+            20,
+            22,
+            24,
+            26,
+            28,
+            30,
+            32,
+            34,
+            36,
+            38
+         ]
+      },
+      {
+         "anchor_frame" : 18,
+         "first_frame" : 0,
+         "history_frames" : [
+            12,
+            14,
+            16,
+            18
+         ],
+         "sequence" : "2011_09_26/2011_09_26_drive_0019_sync",
+         "source_split" : "train",
+         "target_frames" : [
+            20,
+            22,
+            24,
+            26,
+            28,
+            30,
+            32,
+            34,
+            36,
+            38
+         ]
+      },
+      {
+         "anchor_frame" : 18,
+         "first_frame" : 0,
+         "history_frames" : [
+            12,
+            14,
+            16,
+            18
+         ],
+         "sequence" : "2011_09_26/2011_09_26_drive_0020_sync",
+         "source_split" : "val",
+         "target_frames" : [
+            20,
+            22,
+            24,
+            26,
+            28,
+            30,
+            32,
+            34,
+            36,
+            38
+         ]
+      },
+      {
+         "anchor_frame" : 18,
+         "first_frame" : 0,
+         "history_frames" : [
+            12,
+            14,
+            16,
+            18
+         ],
+         "sequence" : "2011_09_26/2011_09_26_drive_0022_sync",
+         "source_split" : "train",
+         "target_frames" : [
+            20,
+            22,
+            24,
+            26,
+            28,
+            30,
+            32,
+            34,
+            36,
+            38
+         ]
+      },
+      {
+         "anchor_frame" : 18,
+         "first_frame" : 0,
+         "history_frames" : [
+            12,
+            14,
+            16,
+            18
+         ],
+         "sequence" : "2011_09_26/2011_09_26_drive_0023_sync",
+         "source_split" : "val",
+         "target_frames" : [
+            20,
+            22,
+            24,
+            26,
+            28,
+            30,
+            32,
+            34,
+            36,
+            38
+         ]
+      },
+      {
+         "anchor_frame" : 18,
+         "first_frame" : 0,
+         "history_frames" : [
+            12,
+            14,
+            16,
+            18
+         ],
+         "sequence" : "2011_09_26/2011_09_26_drive_0027_sync",
+         "source_split" : "train",
+         "target_frames" : [
+            20,
+            22,
+            24,
+            26,
+            28,
+            30,
+            32,
+            34,
+            36,
+            38
+         ]
+      },
+      {
+         "anchor_frame" : 18,
+         "first_frame" : 0,
+         "history_frames" : [
+            12,
+            14,
+            16,
+            18
+         ],
+         "sequence" : "2011_09_26/2011_09_26_drive_0028_sync",
+         "source_split" : "train",
+         "target_frames" : [
+            20,
+            22,
+            24,
+            26,
+            28,
+            30,
+            32,
+            34,
+            36,
+            38
+         ]
+      },
+      {
+         "anchor_frame" : 18,
+         "first_frame" : 0,
+         "history_frames" : [
+            12,
+            14,
+            16,
+            18
+         ],
+         "sequence" : "2011_09_26/2011_09_26_drive_0029_sync",
+         "source_split" : "train",
+         "target_frames" : [
+            20,
+            22,
+            24,
+            26,
+            28,
+            30,
+            32,
+            34,
+            36,
+            38
+         ]
+      },
+      {
+         "anchor_frame" : 18,
+         "first_frame" : 0,
+         "history_frames" : [
+            12,
+            14,
+            16,
+            18
+         ],
+         "sequence" : "2011_09_26/2011_09_26_drive_0032_sync",
+         "source_split" : "train",
+         "target_frames" : [
+            20,
+            22,
+            24,
+            26,
+            28,
+            30,
+            32,
+            34,
+            36,
+            38
+         ]
+      },
+      {
+         "anchor_frame" : 18,
+         "first_frame" : 0,
+         "history_frames" : [
+            12,
+            14,
+            16,
+            18
+         ],
+         "sequence" : "2011_09_26/2011_09_26_drive_0035_sync",
+         "source_split" : "train",
+         "target_frames" : [
+            20,
+            22,
+            24,
+            26,
+            28,
+            30,
+            32,
+            34,
+            36,
+            38
+         ]
+      },
+      {
+         "anchor_frame" : 18,
+         "first_frame" : 0,
+         "history_frames" : [
+            12,
+            14,
+            16,
+            18
+         ],
+         "sequence" : "2011_09_26/2011_09_26_drive_0036_sync",
+         "source_split" : "val",
+         "target_frames" : [
+            20,
+            22,
+            24,
+            26,
+            28,
+            30,
+            32,
+            34,
+            36,
+            38
+         ]
+      },
+      {
+         "anchor_frame" : 18,
+         "first_frame" : 0,
+         "history_frames" : [
+            12,
+            14,
+            16,
+            18
+         ],
+         "sequence" : "2011_09_26/2011_09_26_drive_0039_sync",
+         "source_split" : "train",
+         "target_frames" : [
+            20,
+            22,
+            24,
+            26,
+            28,
+            30,
+            32,
+            34,
+            36,
+            38
+         ]
+      },
+      {
+         "anchor_frame" : 18,
+         "first_frame" : 0,
+         "history_frames" : [
+            12,
+            14,
+            16,
+            18
+         ],
+         "sequence" : "2011_09_26/2011_09_26_drive_0046_sync",
+         "source_split" : "train",
+         "target_frames" : [
+            20,
+            22,
+            24,
+            26,
+            28,
+            30,
+            32,
+            34,
+            36,
+            38
+         ]
+      },
+      {
+         "anchor_frame" : 18,
+         "first_frame" : 0,
+         "history_frames" : [
+            12,
+            14,
+            16,
+            18
+         ],
+         "sequence" : "2011_09_26/2011_09_26_drive_0051_sync",
+         "source_split" : "train",
+         "target_frames" : [
+            20,
+            22,
+            24,
+            26,
+            28,
+            30,
+            32,
+            34,
+            36,
+            38
+         ]
+      },
+      {
+         "anchor_frame" : 18,
+         "first_frame" : 0,
+         "history_frames" : [
+            12,
+            14,
+            16,
+            18
+         ],
+         "sequence" : "2011_09_26/2011_09_26_drive_0052_sync",
+         "source_split" : "train",
+         "target_frames" : [
+            20,
+            22,
+            24,
+            26,
+            28,
+            30,
+            32,
+            34,
+            36,
+            38
+         ]
+      },
+      {
+         "anchor_frame" : 18,
+         "first_frame" : 0,
+         "history_frames" : [
+            12,
+            14,
+            16,
+            18
+         ],
+         "sequence" : "2011_09_26/2011_09_26_drive_0056_sync",
+         "source_split" : "train",
+         "target_frames" : [
+            20,
+            22,
+            24,
+            26,
+            28,
+            30,
+            32,
+            34,
+            36,
+            38
+         ]
+      },
+      {
+         "anchor_frame" : 18,
+         "first_frame" : 0,
+         "history_frames" : [
+            12,
+            14,
+            16,
+            18
+         ],
+         "sequence" : "2011_09_26/2011_09_26_drive_0057_sync",
+         "source_split" : "train",
+         "target_frames" : [
+            20,
+            22,
+            24,
+            26,
+            28,
+            30,
+            32,
+            34,
+            36,
+            38
+         ]
+      },
+      {
+         "anchor_frame" : 18,
+         "first_frame" : 0,
+         "history_frames" : [
+            12,
+            14,
+            16,
+            18
+         ],
+         "sequence" : "2011_09_26/2011_09_26_drive_0059_sync",
+         "source_split" : "train",
+         "target_frames" : [
+            20,
+            22,
+            24,
+            26,
+            28,
+            30,
+            32,
+            34,
+            36,
+            38
+         ]
+      },
+      {
+         "anchor_frame" : 18,
+         "first_frame" : 0,
+         "history_frames" : [
+            12,
+            14,
+            16,
+            18
+         ],
+         "sequence" : "2011_09_26/2011_09_26_drive_0060_sync",
+         "source_split" : "train",
+         "target_frames" : [
+            20,
+            22,
+            24,
+            26,
+            28,
+            30,
+            32,
+            34,
+            36,
+            38
+         ]
+      },
+      {
+         "anchor_frame" : 18,
+         "first_frame" : 0,
+         "history_frames" : [
+            12,
+            14,
+            16,
+            18
+         ],
+         "sequence" : "2011_09_26/2011_09_26_drive_0061_sync",
+         "source_split" : "train",
+         "target_frames" : [
+            20,
+            22,
+            24,
+            26,
+            28,
+            30,
+            32,
+            34,
+            36,
+            38
+         ]
+      },
+      {
+         "anchor_frame" : 18,
+         "first_frame" : 0,
+         "history_frames" : [
+            12,
+            14,
+            16,
+            18
+         ],
+         "sequence" : "2011_09_26/2011_09_26_drive_0064_sync",
+         "source_split" : "train",
+         "target_frames" : [
+            20,
+            22,
+            24,
+            26,
+            28,
+            30,
+            32,
+            34,
+            36,
+            38
+         ]
+      },
+      {
+         "anchor_frame" : 18,
+         "first_frame" : 0,
+         "history_frames" : [
+            12,
+            14,
+            16,
+            18
+         ],
+         "sequence" : "2011_09_26/2011_09_26_drive_0070_sync",
+         "source_split" : "train",
+         "target_frames" : [
+            20,
+            22,
+            24,
+            26,
+            28,
+            30,
+            32,
+            34,
+            36,
+            38
+         ]
+      },
+      {
+         "anchor_frame" : 18,
+         "first_frame" : 0,
+         "history_frames" : [
+            12,
+            14,
+            16,
+            18
+         ],
+         "sequence" : "2011_09_26/2011_09_26_drive_0079_sync",
+         "source_split" : "val",
+         "target_frames" : [
+            20,
+            22,
+            24,
+            26,
+            28,
+            30,
+            32,
+            34,
+            36,
+            38
+         ]
+      },
+      {
+         "anchor_frame" : 18,
+         "first_frame" : 0,
+         "history_frames" : [
+            12,
+            14,
+            16,
+            18
+         ],
+         "sequence" : "2011_09_26/2011_09_26_drive_0084_sync",
+         "source_split" : "train",
+         "target_frames" : [
+            20,
+            22,
+            24,
+            26,
+            28,
+            30,
+            32,
+            34,
+            36,
+            38
+         ]
+      },
+      {
+         "anchor_frame" : 18,
+         "first_frame" : 0,
+         "history_frames" : [
+            12,
+            14,
+            16,
+            18
+         ],
+         "sequence" : "2011_09_26/2011_09_26_drive_0086_sync",
+         "source_split" : "train",
+         "target_frames" : [
+            20,
+            22,
+            24,
+            26,
+            28,
+            30,
+            32,
+            34,
+            36,
+            38
+         ]
+      },
+      {
+         "anchor_frame" : 18,
+         "first_frame" : 0,
+         "history_frames" : [
+            12,
+            14,
+            16,
+            18
+         ],
+         "sequence" : "2011_09_26/2011_09_26_drive_0087_sync",
+         "source_split" : "train",
+         "target_frames" : [
+            20,
+            22,
+            24,
+            26,
+            28,
+            30,
+            32,
+            34,
+            36,
+            38
+         ]
+      },
+      {
+         "anchor_frame" : 18,
+         "first_frame" : 0,
+         "history_frames" : [
+            12,
+            14,
+            16,
+            18
+         ],
+         "sequence" : "2011_09_26/2011_09_26_drive_0091_sync",
+         "source_split" : "train",
+         "target_frames" : [
+            20,
+            22,
+            24,
+            26,
+            28,
+            30,
+            32,
+            34,
+            36,
+            38
+         ]
+      },
+      {
+         "anchor_frame" : 18,
+         "first_frame" : 0,
+         "history_frames" : [
+            12,
+            14,
+            16,
+            18
+         ],
+         "sequence" : "2011_09_26/2011_09_26_drive_0093_sync",
+         "source_split" : "train",
+         "target_frames" : [
+            20,
+            22,
+            24,
+            26,
+            28,
+            30,
+            32,
+            34,
+            36,
+            38
+         ]
+      },
+      {
+         "anchor_frame" : 18,
+         "first_frame" : 0,
+         "history_frames" : [
+            12,
+            14,
+            16,
+            18
+         ],
+         "sequence" : "2011_09_26/2011_09_26_drive_0095_sync",
+         "source_split" : "val",
+         "target_frames" : [
+            20,
+            22,
+            24,
+            26,
+            28,
+            30,
+            32,
+            34,
+            36,
+            38
+         ]
+      },
+      {
+         "anchor_frame" : 18,
+         "first_frame" : 0,
+         "history_frames" : [
+            12,
+            14,
+            16,
+            18
+         ],
+         "sequence" : "2011_09_26/2011_09_26_drive_0096_sync",
+         "source_split" : "train",
+         "target_frames" : [
+            20,
+            22,
+            24,
+            26,
+            28,
+            30,
+            32,
+            34,
+            36,
+            38
+         ]
+      },
+      {
+         "anchor_frame" : 18,
+         "first_frame" : 0,
+         "history_frames" : [
+            12,
+            14,
+            16,
+            18
+         ],
+         "sequence" : "2011_09_26/2011_09_26_drive_0101_sync",
+         "source_split" : "train",
+         "target_frames" : [
+            20,
+            22,
+            24,
+            26,
+            28,
+            30,
+            32,
+            34,
+            36,
+            38
+         ]
+      },
+      {
+         "anchor_frame" : 18,
+         "first_frame" : 0,
+         "history_frames" : [
+            12,
+            14,
+            16,
+            18
+         ],
+         "sequence" : "2011_09_26/2011_09_26_drive_0104_sync",
+         "source_split" : "train",
+         "target_frames" : [
+            20,
+            22,
+            24,
+            26,
+            28,
+            30,
+            32,
+            34,
+            36,
+            38
+         ]
+      },
+      {
+         "anchor_frame" : 18,
+         "first_frame" : 0,
+         "history_frames" : [
+            12,
+            14,
+            16,
+            18
+         ],
+         "sequence" : "2011_09_26/2011_09_26_drive_0106_sync",
+         "source_split" : "train",
+         "target_frames" : [
+            20,
+            22,
+            24,
+            26,
+            28,
+            30,
+            32,
+            34,
+            36,
+            38
+         ]
+      },
+      {
+         "anchor_frame" : 18,
+         "first_frame" : 0,
+         "history_frames" : [
+            12,
+            14,
+            16,
+            18
+         ],
+         "sequence" : "2011_09_26/2011_09_26_drive_0113_sync",
+         "source_split" : "val",
+         "target_frames" : [
+            20,
+            22,
+            24,
+            26,
+            28,
+            30,
+            32,
+            34,
+            36,
+            38
+         ]
+      },
+      {
+         "anchor_frame" : 18,
+         "first_frame" : 0,
+         "history_frames" : [
+            12,
+            14,
+            16,
+            18
+         ],
+         "sequence" : "2011_09_26/2011_09_26_drive_0117_sync",
+         "source_split" : "train",
+         "target_frames" : [
+            20,
+            22,
+            24,
+            26,
+            28,
+            30,
+            32,
+            34,
+            36,
+            38
+         ]
+      },
+      {
+         "anchor_frame" : 18,
+         "first_frame" : 0,
+         "history_frames" : [
+            12,
+            14,
+            16,
+            18
+         ],
+         "sequence" : "2011_09_28/2011_09_28_drive_0001_sync",
+         "source_split" : "train",
+         "target_frames" : [
+            20,
+            22,
+            24,
+            26,
+            28,
+            30,
+            32,
+            34,
+            36,
+            38
+         ]
+      },
+      {
+         "anchor_frame" : 18,
+         "first_frame" : 0,
+         "history_frames" : [
+            12,
+            14,
+            16,
+            18
+         ],
+         "sequence" : "2011_09_28/2011_09_28_drive_0002_sync",
+         "source_split" : "train",
+         "target_frames" : [
+            20,
+            22,
+            24,
+            26,
+            28,
+            30,
+            32,
+            34,
+            36,
+            38
+         ]
+      },
+      {
+         "anchor_frame" : 18,
+         "first_frame" : 0,
+         "history_frames" : [
+            12,
+            14,
+            16,
+            18
+         ],
+         "sequence" : "2011_09_28/2011_09_28_drive_0016_sync",
+         "source_split" : "train",
+         "target_frames" : [
+            20,
+            22,
+            24,
+            26,
+            28,
+            30,
+            32,
+            34,
+            36,
+            38
+         ]
+      },
+      {
+         "anchor_frame" : 18,
+         "first_frame" : 0,
+         "history_frames" : [
+            12,
+            14,
+            16,
+            18
+         ],
+         "sequence" : "2011_09_28/2011_09_28_drive_0021_sync",
+         "source_split" : "train",
+         "target_frames" : [
+            20,
+            22,
+            24,
+            26,
+            28,
+            30,
+            32,
+            34,
+            36,
+            38
+         ]
+      },
+      {
+         "anchor_frame" : 18,
+         "first_frame" : 0,
+         "history_frames" : [
+            12,
+            14,
+            16,
+            18
+         ],
+         "sequence" : "2011_09_28/2011_09_28_drive_0034_sync",
+         "source_split" : "train",
+         "target_frames" : [
+            20,
+            22,
+            24,
+            26,
+            28,
+            30,
+            32,
+            34,
+            36,
+            38
+         ]
+      },
+      {
+         "anchor_frame" : 18,
+         "first_frame" : 0,
+         "history_frames" : [
+            12,
+            14,
+            16,
+            18
+         ],
+         "sequence" : "2011_09_28/2011_09_28_drive_0037_sync",
+         "source_split" : "val",
+         "target_frames" : [
+            20,
+            22,
+            24,
+            26,
+            28,
+            30,
+            32,
+            34,
+            36,
+            38
+         ]
+      },
+      {
+         "anchor_frame" : 18,
+         "first_frame" : 0,
+         "history_frames" : [
+            12,
+            14,
+            16,
+            18
+         ],
+         "sequence" : "2011_09_28/2011_09_28_drive_0038_sync",
+         "source_split" : "train",
+         "target_frames" : [
+            20,
+            22,
+            24,
+            26,
+            28,
+            30,
+            32,
+            34,
+            36,
+            38
+         ]
+      },
+      {
+         "anchor_frame" : 18,
+         "first_frame" : 0,
+         "history_frames" : [
+            12,
+            14,
+            16,
+            18
+         ],
+         "sequence" : "2011_09_28/2011_09_28_drive_0039_sync",
+         "source_split" : "train",
+         "target_frames" : [
+            20,
+            22,
+            24,
+            26,
+            28,
+            30,
+            32,
+            34,
+            36,
+            38
+         ]
+      },
+      {
+         "anchor_frame" : 18,
+         "first_frame" : 0,
+         "history_frames" : [
+            12,
+            14,
+            16,
+            18
+         ],
+         "sequence" : "2011_09_28/2011_09_28_drive_0043_sync",
+         "source_split" : "train",
+         "target_frames" : [
+            20,
+            22,
+            24,
+            26,
+            28,
+            30,
+            32,
+            34,
+            36,
+            38
+         ]
+      },
+      {
+         "anchor_frame" : 18,
+         "first_frame" : 0,
+         "history_frames" : [
+            12,
+            14,
+            16,
+            18
+         ],
+         "sequence" : "2011_09_28/2011_09_28_drive_0053_sync",
+         "source_split" : "train",
+         "target_frames" : [
+            20,
+            22,
+            24,
+            26,
+            28,
+            30,
+            32,
+            34,
+            36,
+            38
+         ]
+      },
+      {
+         "anchor_frame" : 18,
+         "first_frame" : 0,
+         "history_frames" : [
+            12,
+            14,
+            16,
+            18
+         ],
+         "sequence" : "2011_09_28/2011_09_28_drive_0054_sync",
+         "source_split" : "train",
+         "target_frames" : [
+            20,
+            22,
+            24,
+            26,
+            28,
+            30,
+            32,
+            34,
+            36,
+            38
+         ]
+      },
+      {
+         "anchor_frame" : 18,
+         "first_frame" : 0,
+         "history_frames" : [
+            12,
+            14,
+            16,
+            18
+         ],
+         "sequence" : "2011_09_28/2011_09_28_drive_0057_sync",
+         "source_split" : "train",
+         "target_frames" : [
+            20,
+            22,
+            24,
+            26,
+            28,
+            30,
+            32,
+            34,
+            36,
+            38
+         ]
+      },
+      {
+         "anchor_frame" : 18,
+         "first_frame" : 0,
+         "history_frames" : [
+            12,
+            14,
+            16,
+            18
+         ],
+         "sequence" : "2011_09_28/2011_09_28_drive_0068_sync",
+         "source_split" : "train",
+         "target_frames" : [
+            20,
+            22,
+            24,
+            26,
+            28,
+            30,
+            32,
+            34,
+            36,
+            38
+         ]
+      },
+      {
+         "anchor_frame" : 18,
+         "first_frame" : 0,
+         "history_frames" : [
+            12,
+            14,
+            16,
+            18
+         ],
+         "sequence" : "2011_09_28/2011_09_28_drive_0075_sync",
+         "source_split" : "train",
+         "target_frames" : [
+            20,
+            22,
+            24,
+            26,
+            28,
+            30,
+            32,
+            34,
+            36,
+            38
+         ]
+      },
+      {
+         "anchor_frame" : 18,
+         "first_frame" : 0,
+         "history_frames" : [
+            12,
+            14,
+            16,
+            18
+         ],
+         "sequence" : "2011_09_28/2011_09_28_drive_0082_sync",
+         "source_split" : "train",
+         "target_frames" : [
+            20,
+            22,
+            24,
+            26,
+            28,
+            30,
+            32,
+            34,
+            36,
+            38
+         ]
+      },
+      {
+         "anchor_frame" : 18,
+         "first_frame" : 0,
+         "history_frames" : [
+            12,
+            14,
+            16,
+            18
+         ],
+         "sequence" : "2011_09_28/2011_09_28_drive_0087_sync",
+         "source_split" : "train",
+         "target_frames" : [
+            20,
+            22,
+            24,
+            26,
+            28,
+            30,
+            32,
+            34,
+            36,
+            38
+         ]
+      },
+      {
+         "anchor_frame" : 18,
+         "first_frame" : 0,
+         "history_frames" : [
+            12,
+            14,
+            16,
+            18
+         ],
+         "sequence" : "2011_09_28/2011_09_28_drive_0090_sync",
+         "source_split" : "train",
+         "target_frames" : [
+            20,
+            22,
+            24,
+            26,
+            28,
+            30,
+            32,
+            34,
+            36,
+            38
+         ]
+      },
+      {
+         "anchor_frame" : 18,
+         "first_frame" : 0,
+         "history_frames" : [
+            12,
+            14,
+            16,
+            18
+         ],
+         "sequence" : "2011_09_28/2011_09_28_drive_0094_sync",
+         "source_split" : "train",
+         "target_frames" : [
+            20,
+            22,
+            24,
+            26,
+            28,
+            30,
+            32,
+            34,
+            36,
+            38
+         ]
+      },
+      {
+         "anchor_frame" : 18,
+         "first_frame" : 0,
+         "history_frames" : [
+            12,
+            14,
+            16,
+            18
+         ],
+         "sequence" : "2011_09_28/2011_09_28_drive_0096_sync",
+         "source_split" : "train",
+         "target_frames" : [
+            20,
+            22,
+            24,
+            26,
+            28,
+            30,
+            32,
+            34,
+            36,
+            38
+         ]
+      },
+      {
+         "anchor_frame" : 18,
+         "first_frame" : 0,
+         "history_frames" : [
+            12,
+            14,
+            16,
+            18
+         ],
+         "sequence" : "2011_09_28/2011_09_28_drive_0098_sync",
+         "source_split" : "train",
+         "target_frames" : [
+            20,
+            22,
+            24,
+            26,
+            28,
+            30,
+            32,
+            34,
+            36,
+            38
+         ]
+      },
+      {
+         "anchor_frame" : 18,
+         "first_frame" : 0,
+         "history_frames" : [
+            12,
+            14,
+            16,
+            18
+         ],
+         "sequence" : "2011_09_28/2011_09_28_drive_0100_sync",
+         "source_split" : "train",
+         "target_frames" : [
+            20,
+            22,
+            24,
+            26,
+            28,
+            30,
+            32,
+            34,
+            36,
+            38
+         ]
+      },
+      {
+         "anchor_frame" : 18,
+         "first_frame" : 0,
+         "history_frames" : [
+            12,
+            14,
+            16,
+            18
+         ],
+         "sequence" : "2011_09_28/2011_09_28_drive_0102_sync",
+         "source_split" : "train",
+         "target_frames" : [
+            20,
+            22,
+            24,
+            26,
+            28,
+            30,
+            32,
+            34,
+            36,
+            38
+         ]
+      },
+      {
+         "anchor_frame" : 18,
+         "first_frame" : 0,
+         "history_frames" : [
+            12,
+            14,
+            16,
+            18
+         ],
+         "sequence" : "2011_09_28/2011_09_28_drive_0104_sync",
+         "source_split" : "train",
+         "target_frames" : [
+            20,
+            22,
+            24,
+            26,
+            28,
+            30,
+            32,
+            34,
+            36,
+            38
+         ]
+      },
+      {
+         "anchor_frame" : 18,
+         "first_frame" : 0,
+         "history_frames" : [
+            12,
+            14,
+            16,
+            18
+         ],
+         "sequence" : "2011_09_28/2011_09_28_drive_0106_sync",
+         "source_split" : "train",
+         "target_frames" : [
+            20,
+            22,
+            24,
+            26,
+            28,
+            30,
+            32,
+            34,
+            36,
+            38
+         ]
+      },
+      {
+         "anchor_frame" : 18,
+         "first_frame" : 0,
+         "history_frames" : [
+            12,
+            14,
+            16,
+            18
+         ],
+         "sequence" : "2011_09_28/2011_09_28_drive_0108_sync",
+         "source_split" : "train",
+         "target_frames" : [
+            20,
+            22,
+            24,
+            26,
+            28,
+            30,
+            32,
+            34,
+            36,
+            38
+         ]
+      },
+      {
+         "anchor_frame" : 18,
+         "first_frame" : 0,
+         "history_frames" : [
+            12,
+            14,
+            16,
+            18
+         ],
+         "sequence" : "2011_09_28/2011_09_28_drive_0110_sync",
+         "source_split" : "train",
+         "target_frames" : [
+            20,
+            22,
+            24,
+            26,
+            28,
+            30,
+            32,
+            34,
+            36,
+            38
+         ]
+      },
+      {
+         "anchor_frame" : 18,
+         "first_frame" : 0,
+         "history_frames" : [
+            12,
+            14,
+            16,
+            18
+         ],
+         "sequence" : "2011_09_28/2011_09_28_drive_0113_sync",
+         "source_split" : "train",
+         "target_frames" : [
+            20,
+            22,
+            24,
+            26,
+            28,
+            30,
+            32,
+            34,
+            36,
+            38
+         ]
+      },
+      {
+         "anchor_frame" : 18,
+         "first_frame" : 0,
+         "history_frames" : [
+            12,
+            14,
+            16,
+            18
+         ],
+         "sequence" : "2011_09_28/2011_09_28_drive_0119_sync",
+         "source_split" : "train",
+         "target_frames" : [
+            20,
+            22,
+            24,
+            26,
+            28,
+            30,
+            32,
+            34,
+            36,
+            38
+         ]
+      },
+      {
+         "anchor_frame" : 18,
+         "first_frame" : 0,
+         "history_frames" : [
+            12,
+            14,
+            16,
+            18
+         ],
+         "sequence" : "2011_09_28/2011_09_28_drive_0121_sync",
+         "source_split" : "train",
+         "target_frames" : [
+            20,
+            22,
+            24,
+            26,
+            28,
+            30,
+            32,
+            34,
+            36,
+            38
+         ]
+      },
+      {
+         "anchor_frame" : 18,
+         "first_frame" : 0,
+         "history_frames" : [
+            12,
+            14,
+            16,
+            18
+         ],
+         "sequence" : "2011_09_28/2011_09_28_drive_0125_sync",
+         "source_split" : "train",
+         "target_frames" : [
+            20,
+            22,
+            24,
+            26,
+            28,
+            30,
+            32,
+            34,
+            36,
+            38
+         ]
+      },
+      {
+         "anchor_frame" : 18,
+         "first_frame" : 0,
+         "history_frames" : [
+            12,
+            14,
+            16,
+            18
+         ],
+         "sequence" : "2011_09_28/2011_09_28_drive_0132_sync",
+         "source_split" : "train",
+         "target_frames" : [
+            20,
+            22,
+            24,
+            26,
+            28,
+            30,
+            32,
+            34,
+            36,
+            38
+         ]
+      },
+      {
+         "anchor_frame" : 18,
+         "first_frame" : 0,
+         "history_frames" : [
+            12,
+            14,
+            16,
+            18
+         ],
+         "sequence" : "2011_09_28/2011_09_28_drive_0134_sync",
+         "source_split" : "train",
+         "target_frames" : [
+            20,
+            22,
+            24,
+            26,
+            28,
+            30,
+            32,
+            34,
+            36,
+            38
+         ]
+      },
+      {
+         "anchor_frame" : 18,
+         "first_frame" : 0,
+         "history_frames" : [
+            12,
+            14,
+            16,
+            18
+         ],
+         "sequence" : "2011_09_28/2011_09_28_drive_0138_sync",
+         "source_split" : "train",
+         "target_frames" : [
+            20,
+            22,
+            24,
+            26,
+            28,
+            30,
+            32,
+            34,
+            36,
+            38
+         ]
+      },
+      {
+         "anchor_frame" : 18,
+         "first_frame" : 0,
+         "history_frames" : [
+            12,
+            14,
+            16,
+            18
+         ],
+         "sequence" : "2011_09_28/2011_09_28_drive_0141_sync",
+         "source_split" : "train",
+         "target_frames" : [
+            20,
+            22,
+            24,
+            26,
+            28,
+            30,
+            32,
+            34,
+            36,
+            38
+         ]
+      },
+      {
+         "anchor_frame" : 18,
+         "first_frame" : 0,
+         "history_frames" : [
+            12,
+            14,
+            16,
+            18
+         ],
+         "sequence" : "2011_09_28/2011_09_28_drive_0146_sync",
+         "source_split" : "train",
+         "target_frames" : [
+            20,
+            22,
+            24,
+            26,
+            28,
+            30,
+            32,
+            34,
+            36,
+            38
+         ]
+      },
+      {
+         "anchor_frame" : 18,
+         "first_frame" : 0,
+         "history_frames" : [
+            12,
+            14,
+            16,
+            18
+         ],
+         "sequence" : "2011_09_28/2011_09_28_drive_0149_sync",
+         "source_split" : "train",
+         "target_frames" : [
+            20,
+            22,
+            24,
+            26,
+            28,
+            30,
+            32,
+            34,
+            36,
+            38
+         ]
+      },
+      {
+         "anchor_frame" : 18,
+         "first_frame" : 0,
+         "history_frames" : [
+            12,
+            14,
+            16,
+            18
+         ],
+         "sequence" : "2011_09_28/2011_09_28_drive_0153_sync",
+         "source_split" : "train",
+         "target_frames" : [
+            20,
+            22,
+            24,
+            26,
+            28,
+            30,
+            32,
+            34,
+            36,
+            38
+         ]
+      },
+      {
+         "anchor_frame" : 18,
+         "first_frame" : 0,
+         "history_frames" : [
+            12,
+            14,
+            16,
+            18
+         ],
+         "sequence" : "2011_09_28/2011_09_28_drive_0155_sync",
+         "source_split" : "train",
+         "target_frames" : [
+            20,
+            22,
+            24,
+            26,
+            28,
+            30,
+            32,
+            34,
+            36,
+            38
+         ]
+      },
+      {
+         "anchor_frame" : 18,
+         "first_frame" : 0,
+         "history_frames" : [
+            12,
+            14,
+            16,
+            18
+         ],
+         "sequence" : "2011_09_28/2011_09_28_drive_0165_sync",
+         "source_split" : "train",
+         "target_frames" : [
+            20,
+            22,
+            24,
+            26,
+            28,
+            30,
+            32,
+            34,
+            36,
+            38
+         ]
+      },
+      {
+         "anchor_frame" : 18,
+         "first_frame" : 0,
+         "history_frames" : [
+            12,
+            14,
+            16,
+            18
+         ],
+         "sequence" : "2011_09_28/2011_09_28_drive_0167_sync",
+         "source_split" : "train",
+         "target_frames" : [
+            20,
+            22,
+            24,
+            26,
+            28,
+            30,
+            32,
+            34,
+            36,
+            38
+         ]
+      },
+      {
+         "anchor_frame" : 18,
+         "first_frame" : 0,
+         "history_frames" : [
+            12,
+            14,
+            16,
+            18
+         ],
+         "sequence" : "2011_09_28/2011_09_28_drive_0168_sync",
+         "source_split" : "train",
+         "target_frames" : [
+            20,
+            22,
+            24,
+            26,
+            28,
+            30,
+            32,
+            34,
+            36,
+            38
+         ]
+      },
+      {
+         "anchor_frame" : 18,
+         "first_frame" : 0,
+         "history_frames" : [
+            12,
+            14,
+            16,
+            18
+         ],
+         "sequence" : "2011_09_28/2011_09_28_drive_0174_sync",
+         "source_split" : "train",
+         "target_frames" : [
+            20,
+            22,
+            24,
+            26,
+            28,
+            30,
+            32,
+            34,
+            36,
+            38
+         ]
+      },
+      {
+         "anchor_frame" : 18,
+         "first_frame" : 0,
+         "history_frames" : [
+            12,
+            14,
+            16,
+            18
+         ],
+         "sequence" : "2011_09_28/2011_09_28_drive_0177_sync",
+         "source_split" : "train",
+         "target_frames" : [
+            20,
+            22,
+            24,
+            26,
+            28,
+            30,
+            32,
+            34,
+            36,
+            38
+         ]
+      },
+      {
+         "anchor_frame" : 18,
+         "first_frame" : 0,
+         "history_frames" : [
+            12,
+            14,
+            16,
+            18
+         ],
+         "sequence" : "2011_09_28/2011_09_28_drive_0184_sync",
+         "source_split" : "train",
+         "target_frames" : [
+            20,
+            22,
+            24,
+            26,
+            28,
+            30,
+            32,
+            34,
+            36,
+            38
+         ]
+      },
+      {
+         "anchor_frame" : 18,
+         "first_frame" : 0,
+         "history_frames" : [
+            12,
+            14,
+            16,
+            18
+         ],
+         "sequence" : "2011_09_28/2011_09_28_drive_0185_sync",
+         "source_split" : "train",
+         "target_frames" : [
+            20,
+            22,
+            24,
+            26,
+            28,
+            30,
+            32,
+            34,
+            36,
+            38
+         ]
+      },
+      {
+         "anchor_frame" : 18,
+         "first_frame" : 0,
+         "history_frames" : [
+            12,
+            14,
+            16,
+            18
+         ],
+         "sequence" : "2011_09_28/2011_09_28_drive_0187_sync",
+         "source_split" : "train",
+         "target_frames" : [
+            20,
+            22,
+            24,
+            26,
+            28,
+            30,
+            32,
+            34,
+            36,
+            38
+         ]
+      },
+      {
+         "anchor_frame" : 18,
+         "first_frame" : 0,
+         "history_frames" : [
+            12,
+            14,
+            16,
+            18
+         ],
+         "sequence" : "2011_09_28/2011_09_28_drive_0192_sync",
+         "source_split" : "train",
+         "target_frames" : [
+            20,
+            22,
+            24,
+            26,
+            28,
+            30,
+            32,
+            34,
+            36,
+            38
+         ]
+      },
+      {
+         "anchor_frame" : 18,
+         "first_frame" : 0,
+         "history_frames" : [
+            12,
+            14,
+            16,
+            18
+         ],
+         "sequence" : "2011_09_28/2011_09_28_drive_0198_sync",
+         "source_split" : "train",
+         "target_frames" : [
+            20,
+            22,
+            24,
+            26,
+            28,
+            30,
+            32,
+            34,
+            36,
+            38
+         ]
+      },
+      {
+         "anchor_frame" : 18,
+         "first_frame" : 0,
+         "history_frames" : [
+            12,
+            14,
+            16,
+            18
+         ],
+         "sequence" : "2011_09_28/2011_09_28_drive_0201_sync",
+         "source_split" : "train",
+         "target_frames" : [
+            20,
+            22,
+            24,
+            26,
+            28,
+            30,
+            32,
+            34,
+            36,
+            38
+         ]
+      },
+      {
+         "anchor_frame" : 18,
+         "first_frame" : 0,
+         "history_frames" : [
+            12,
+            14,
+            16,
+            18
+         ],
+         "sequence" : "2011_09_28/2011_09_28_drive_0204_sync",
+         "source_split" : "train",
+         "target_frames" : [
+            20,
+            22,
+            24,
+            26,
+            28,
+            30,
+            32,
+            34,
+            36,
+            38
+         ]
+      },
+      {
+         "anchor_frame" : 18,
+         "first_frame" : 0,
+         "history_frames" : [
+            12,
+            14,
+            16,
+            18
+         ],
+         "sequence" : "2011_09_28/2011_09_28_drive_0208_sync",
+         "source_split" : "train",
+         "target_frames" : [
+            20,
+            22,
+            24,
+            26,
+            28,
+            30,
+            32,
+            34,
+            36,
+            38
+         ]
+      },
+      {
+         "anchor_frame" : 18,
+         "first_frame" : 0,
+         "history_frames" : [
+            12,
+            14,
+            16,
+            18
+         ],
+         "sequence" : "2011_09_28/2011_09_28_drive_0209_sync",
+         "source_split" : "train",
+         "target_frames" : [
+            20,
+            22,
+            24,
+            26,
+            28,
+            30,
+            32,
+            34,
+            36,
+            38
+         ]
+      },
+      {
+         "anchor_frame" : 18,
+         "first_frame" : 0,
+         "history_frames" : [
+            12,
+            14,
+            16,
+            18
+         ],
+         "sequence" : "2011_09_28/2011_09_28_drive_0216_sync",
+         "source_split" : "train",
+         "target_frames" : [
+            20,
+            22,
+            24,
+            26,
+            28,
+            30,
+            32,
+            34,
+            36,
+            38
+         ]
+      },
+      {
+         "anchor_frame" : 18,
+         "first_frame" : 0,
+         "history_frames" : [
+            12,
+            14,
+            16,
+            18
+         ],
+         "sequence" : "2011_09_28/2011_09_28_drive_0220_sync",
+         "source_split" : "train",
+         "target_frames" : [
+            20,
+            22,
+            24,
+            26,
+            28,
+            30,
+            32,
+            34,
+            36,
+            38
+         ]
+      },
+      {
+         "anchor_frame" : 18,
+         "first_frame" : 0,
+         "history_frames" : [
+            12,
+            14,
+            16,
+            18
+         ],
+         "sequence" : "2011_09_28/2011_09_28_drive_0222_sync",
+         "source_split" : "train",
+         "target_frames" : [
+            20,
+            22,
+            24,
+            26,
+            28,
+            30,
+            32,
+            34,
+            36,
+            38
+         ]
+      },
+      {
+         "anchor_frame" : 18,
+         "first_frame" : 0,
+         "history_frames" : [
+            12,
+            14,
+            16,
+            18
+         ],
+         "sequence" : "2011_09_29/2011_09_29_drive_0004_sync",
+         "source_split" : "train",
+         "target_frames" : [
+            20,
+            22,
+            24,
+            26,
+            28,
+            30,
+            32,
+            34,
+            36,
+            38
+         ]
+      },
+      {
+         "anchor_frame" : 18,
+         "first_frame" : 0,
+         "history_frames" : [
+            12,
+            14,
+            16,
+            18
+         ],
+         "sequence" : "2011_09_29/2011_09_29_drive_0026_sync",
+         "source_split" : "val",
+         "target_frames" : [
+            20,
+            22,
+            24,
+            26,
+            28,
+            30,
+            32,
+            34,
+            36,
+            38
+         ]
+      },
+      {
+         "anchor_frame" : 18,
+         "first_frame" : 0,
+         "history_frames" : [
+            12,
+            14,
+            16,
+            18
+         ],
+         "sequence" : "2011_09_29/2011_09_29_drive_0071_sync",
+         "source_split" : "train",
+         "target_frames" : [
+            20,
+            22,
+            24,
+            26,
+            28,
+            30,
+            32,
+            34,
+            36,
+            38
+         ]
+      },
+      {
+         "anchor_frame" : 18,
+         "first_frame" : 0,
+         "history_frames" : [
+            12,
+            14,
+            16,
+            18
+         ],
+         "sequence" : "2011_09_30/2011_09_30_drive_0016_sync",
+         "source_split" : "val",
+         "target_frames" : [
+            20,
+            22,
+            24,
+            26,
+            28,
+            30,
+            32,
+            34,
+            36,
+            38
+         ]
+      },
+      {
+         "anchor_frame" : 18,
+         "first_frame" : 0,
+         "history_frames" : [
+            12,
+            14,
+            16,
+            18
+         ],
+         "sequence" : "2011_09_30/2011_09_30_drive_0018_sync",
+         "source_split" : "train",
+         "target_frames" : [
+            20,
+            22,
+            24,
+            26,
+            28,
+            30,
+            32,
+            34,
+            36,
+            38
+         ]
+      },
+      {
+         "anchor_frame" : 18,
+         "first_frame" : 0,
+         "history_frames" : [
+            12,
+            14,
+            16,
+            18
+         ],
+         "sequence" : "2011_09_30/2011_09_30_drive_0020_sync",
+         "source_split" : "train",
+         "target_frames" : [
+            20,
+            22,
+            24,
+            26,
+            28,
+            30,
+            32,
+            34,
+            36,
+            38
+         ]
+      },
+      {
+         "anchor_frame" : 18,
+         "first_frame" : 0,
+         "history_frames" : [
+            12,
+            14,
+            16,
+            18
+         ],
+         "sequence" : "2011_09_30/2011_09_30_drive_0027_sync",
+         "source_split" : "train",
+         "target_frames" : [
+            20,
+            22,
+            24,
+            26,
+            28,
+            30,
+            32,
+            34,
+            36,
+            38
+         ]
+      },
+      {
+         "anchor_frame" : 18,
+         "first_frame" : 0,
+         "history_frames" : [
+            12,
+            14,
+            16,
+            18
+         ],
+         "sequence" : "2011_09_30/2011_09_30_drive_0028_sync",
+         "source_split" : "train",
+         "target_frames" : [
+            20,
+            22,
+            24,
+            26,
+            28,
+            30,
+            32,
+            34,
+            36,
+            38
+         ]
+      },
+      {
+         "anchor_frame" : 18,
+         "first_frame" : 0,
+         "history_frames" : [
+            12,
+            14,
+            16,
+            18
+         ],
+         "sequence" : "2011_09_30/2011_09_30_drive_0033_sync",
+         "source_split" : "train",
+         "target_frames" : [
+            20,
+            22,
+            24,
+            26,
+            28,
+            30,
+            32,
+            34,
+            36,
+            38
+         ]
+      },
+      {
+         "anchor_frame" : 18,
+         "first_frame" : 0,
+         "history_frames" : [
+            12,
+            14,
+            16,
+            18
+         ],
+         "sequence" : "2011_09_30/2011_09_30_drive_0034_sync",
+         "source_split" : "train",
+         "target_frames" : [
+            20,
+            22,
+            24,
+            26,
+            28,
+            30,
+            32,
+            34,
+            36,
+            38
+         ]
+      },
+      {
+         "anchor_frame" : 18,
+         "first_frame" : 0,
+         "history_frames" : [
+            12,
+            14,
+            16,
+            18
+         ],
+         "sequence" : "2011_10_03/2011_10_03_drive_0027_sync",
+         "source_split" : "train",
+         "target_frames" : [
+            20,
+            22,
+            24,
+            26,
+            28,
+            30,
+            32,
+            34,
+            36,
+            38
+         ]
+      },
+      {
+         "anchor_frame" : 18,
+         "first_frame" : 0,
+         "history_frames" : [
+            12,
+            14,
+            16,
+            18
+         ],
+         "sequence" : "2011_10_03/2011_10_03_drive_0034_sync",
+         "source_split" : "train",
+         "target_frames" : [
+            20,
+            22,
+            24,
+            26,
+            28,
+            30,
+            32,
+            34,
+            36,
+            38
+         ]
+      },
+      {
+         "anchor_frame" : 18,
+         "first_frame" : 0,
+         "history_frames" : [
+            12,
+            14,
+            16,
+            18
+         ],
+         "sequence" : "2011_10_03/2011_10_03_drive_0042_sync",
+         "source_split" : "train",
+         "target_frames" : [
+            20,
+            22,
+            24,
+            26,
+            28,
+            30,
+            32,
+            34,
+            36,
+            38
+         ]
+      },
+      {
+         "anchor_frame" : 18,
+         "first_frame" : 0,
+         "history_frames" : [
+            12,
+            14,
+            16,
+            18
+         ],
+         "sequence" : "2011_10_03/2011_10_03_drive_0047_sync",
+         "source_split" : "val",
+         "target_frames" : [
+            20,
+            22,
+            24,
+            26,
+            28,
+            30,
+            32,
+            34,
+            36,
+            38
+         ]
+      }
+   ],
+   "split" : "KITTI Depth Completion train and val sequences"
+}

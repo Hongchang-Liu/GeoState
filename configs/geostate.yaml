@@ -1,0 +1,58 @@
+model:
+  dim: 512
+  scene_tokens: 512
+  perceiver_layers: 8
+  heads: 8
+  mlp_ratio: 4.0
+  point_fourier_bands: 10
+  ray_fourier_bands: 6
+  memory_mode: perceiver
+  view_mode: all
+  use_3d_pe: true
+  use_relative_camera_pose: true
+  use_input_patch_rays: true
+  camera_translation_fourier_bands: 4
+  input_ray_fourier_bands: 4
+  vggt_feature_projection_dim: 512
+  vggt_feature_fusion_hidden_dim: 2048
+  decoder_arch: frozen_vggt_dpt
+  vggt_dpt_decoder_layers: 16
+  vggt_dpt_decoder_capture_layers: [4, 8, 12, 16]
+  vggt_dpt_decoder_hidden_dim: 1024
+  vggt_dpt_state_conditioner_layers: 2
+  vggt_dpt_branch_layers: 2
+data:
+  # Paths are relative to the repository root in the public release. They may
+  # be overridden from a site-local copy of this configuration.
+  root: data/dl3dv
+  cache_root: data/cache/teacher
+  teacher_frames: 24
+  teacher_sampling: overlap_clip
+  min_input_views: 1
+  max_input_views: 5
+  image_resolution: 512
+  source_c2w_convention: opengl
+alignment:
+  # Camera/Sim(3) alignment remains part of the coordinate pipeline. No patch
+  # feature-alignment objective is used in this experiment.
+  max_rotation_error_deg: 10.0
+  max_relative_baseline_error: 0.25
+  max_relative_center_error: 0.25
+  min_baseline: 1.0e-5
+  min_overlap: 0.05
+  max_projection_relative_error: 0.25
+train:
+  # Multi-dataset pretraining schedule reported in the paper. Waymo adaptation
+  # reuses this architecture and objective with CLI overrides documented in
+  # README.md (Training).
+  steps: 200000
+  learning_rate: 1.0e-5
+  grad_accumulation: 9
+  log_depth_weight: 1.0
+  gradient_weight: 0.10
+  anchor_view_dropout_probability: 0.4
+  random_view_dropout_probability: 0.4
+  output_dir: outputs/stage1
+vggt:
+  source_root: third_party/VGGT-omega
+  checkpoint: checkpoints/vggt_omega_1b_512.pt

@@ -1,0 +1,37 @@
+[build-system]
+requires = ["setuptools==80.9.0", "wheel==0.45.1"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "geostate"
+version = "0.1.0"
+description = "View-decoupled geometry states for predictive 3D world modeling."
+readme = "README.md"
+requires-python = ">=3.10"
+license = {file = "LICENSE"}
+dependencies = [
+    "torch>=2.6",
+    "torchvision>=0.21",
+    "numpy>=2.0,<3",
+    "Pillow>=10",
+    "PyYAML>=6",
+]
+
+[project.optional-dependencies]
+waymo = ["pyarrow>=15"]
+eval = ["opencv-python-headless>=4.9"]
+train = ["tensorboard>=2.16"]
+all = ["pyarrow>=15", "opencv-python-headless>=4.9", "tensorboard>=2.16"]
+
+[project.scripts]
+geostate-train-stage1-ddp = "vggt_scene_tokenizer.training.large_scale:main"
+geostate-prepare-tartanair = "vggt_scene_tokenizer.data.tartanair:main"
+geostate-prepare-pretrain = "vggt_scene_tokenizer.data.pretrain:main"
+geostate-prepare-wildrgbd = "vggt_scene_tokenizer.data.wildrgbd:main"
+geostate-prepare-waymo = "vggt_scene_tokenizer.data.waymo:main"
+geostate-prepare-waymo-masks = "vggt_scene_tokenizer.data.waymo_motion_masks:main"
+geostate-train-world-onestep = "vggt_scene_tokenizer.training.waymo_online_one_step:main"
+geostate-train-world-rollout = "vggt_scene_tokenizer.training.waymo_online_rollout:main"
+
+[tool.setuptools.packages.find]
+where = ["src"]

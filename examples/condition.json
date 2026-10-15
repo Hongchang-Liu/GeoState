@@ -1,0 +1,72 @@
+{
+  "frames": [
+    {
+      "seconds": -0.6,
+      "images": [
+        {
+          "camera": "front",
+          "path": "images/t_minus_0.6_front.png"
+        },
+        {
+          "camera": "front_left",
+          "path": "images/t_minus_0.6_front_left.png"
+        },
+        {
+          "camera": "front_right",
+          "path": "images/t_minus_0.6_front_right.png"
+        }
+      ]
+    },
+    {
+      "seconds": -0.4,
+      "images": [
+        {
+          "camera": "front",
+          "path": "images/t_minus_0.4_front.png"
+        },
+        {
+          "camera": "front_left",
+          "path": "images/t_minus_0.4_front_left.png"
+        },
+        {
+          "camera": "front_right",
+          "path": "images/t_minus_0.4_front_right.png"
+        }
+      ]
+    },
+    {
+      "seconds": -0.2,
+      "images": [
+        {
+          "camera": "front",
+          "path": "images/t_minus_0.2_front.png"
+        },
+        {
+          "camera": "front_left",
+          "path": "images/t_minus_0.2_front_left.png"
+        },
+        {
+          "camera": "front_right",
+          "path": "images/t_minus_0.2_front_right.png"
+        }
+      ]
+    },
+    {
+      "seconds": 0.0,
+      "images": [
+        {
+          "camera": "front",
+          "path": "images/t_front.png"
+        },
+        {
+          "camera": "front_left",
+          "path": "images/t_front_left.png"
+        },
+        {
+          "camera": "front_right",
+          "path": "images/t_front_right.png"
+        }
+      ]
+    }
+  ]
+}

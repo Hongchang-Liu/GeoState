@@ -1,0 +1,9 @@
+name: geostate
+channels:
+  - conda-forge
+dependencies:
+  - python=3.10.12
+  - pip=25.3
+  - pip:
+      - -r requirements.txt
+      - -e .
