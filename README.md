@@ -10,7 +10,7 @@ Xun Jiang<sup>1</sup>, Fei Ma<sup>4</sup>, Xing Xu<sup>1</sup>, Yi Bin<sup>1,†
 <sup>3</sup>Tencent &emsp; <sup>4</sup>Guangdong Laboratory of Artificial Intelligence and Digital Economy (SZ)
 
 <a href="https://hongchang-liu.github.io/GeoState-project-page/"><img src="https://img.shields.io/badge/Project_Page-green" alt="Project Page"></a>
-<a href=""><img src="https://img.shields.io/badge/arXiv-b31b1b" alt="arXiv"></a>
+<a href="https://arxiv.org/abs/2610.22343"><img src="https://img.shields.io/badge/arXiv-2610.22343-b31b1b" alt="arXiv"></a>
 <a href="https://huggingface.co/HongchangLiu/GeoState"><img src="https://img.shields.io/badge/Hugging_Face-Weights-yellow" alt="Hugging Face weights"></a>
 
 [Setup](#setup) · [Inference](#inference) · [Evaluation](#evaluation) · [Training](#training) · [Citation](#citation)
@@ -544,11 +544,14 @@ load separately. World-model exports contain the predictor weights and configura
 If you use GeoState in your research, please cite:
 
 ```bibtex
-@misc{liu2026geostate,
-  title  = {GeoState: Learning View-Decoupled Geometry States for 3D World Modeling},
-  author = {Hongchang Liu and Jian Liu and Yujuan Ding and Liang Peng and
-            Xun Jiang and Fei Ma and Xing Xu and Yi Bin},
-  year   = {2026}
+@misc{liu2026geostatelearningviewdecoupledgeometry,
+  title={GeoState: Learning View-Decoupled Geometry States for 3D World Modeling},
+  author={Hongchang Liu and Jian Liu and Yujuan Ding and Liang Peng and Xun Jiang and Fei Ma and Xing Xu and Yi Bin},
+  year={2026},
+  eprint={2610.22343},
+  archivePrefix={arXiv},
+  primaryClass={cs.CV},
+  url={https://arxiv.org/abs/2610.22343},
 }
 ```
 
